@@ -2,6 +2,14 @@ App can be tested remotely in :
 
 https://challenge-js-jfq.herokuapp.com/
 
+Use this credentials to see an example
+user: admin
+pass: admin
+
+Or just create your own account in register section.
+
+
+
 If you are willing to pull this repo you must follow a few steps.
 
 on root directory:
