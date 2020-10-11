@@ -11,6 +11,7 @@ on root directory:
 then:
 
  -cd client 
+ 
  -npm install
  
  You will also have to install PostgreSQL.
@@ -21,7 +22,7 @@ then:
  
  on root directory:
  
- >>npm start
+ -npm start
  
  then:
  
