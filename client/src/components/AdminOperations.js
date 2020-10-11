@@ -13,7 +13,7 @@ const AdminOperations = (props) => {
   
     const deleteTodo = async id => {
       try {
-        const deleteTodo = await fetch(`http://localhost:3001/operation/${id}`, {
+        const deleteTodo = await fetch(`/operation/${id}`, {
           method: "DELETE",
           headers:{
               jwtToken:localStorage.token
@@ -29,7 +29,7 @@ const AdminOperations = (props) => {
     const getOps = async()=>{
         
         try{
-          const res = await fetch("http://localhost:3001/operation/filtered", {
+          const res = await fetch("/operation/filtered", {
             method: "POST",
             body: JSON.stringify({
                 caja: props.caja,

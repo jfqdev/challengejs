@@ -65,7 +65,7 @@ const NewOperation = (props)=>{
             supMonto = monto * (-1)
         }
         try{
-          const res = await fetch("http://localhost:3001/operation/", {
+          const res = await fetch("/operation/", {
             method: "POST",
             body: JSON.stringify({
                 concepto: concepto,

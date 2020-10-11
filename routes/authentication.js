@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const bcrypt = require("bcrypt");
-const pool = require('../config/db');
+const pool = require('../db');
 const jwtGenerator = require("../helpers/jwtGenerator");
 const authorize = require("../middleware/authorize");
 

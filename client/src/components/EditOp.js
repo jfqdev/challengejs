@@ -70,7 +70,7 @@ function EditOp(props) {
     const editRequest = async()=>{
         
       try{
-        const res = await fetch(`http://localhost:3001/operation/${op.opid}`, {
+        const res = await fetch(`/operation/${op.opid}`, {
           method: "PUT",
           body: JSON.stringify({
               concepto: concepto,

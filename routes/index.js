@@ -13,6 +13,9 @@ const information = require('./information');
 router.use('/operation', authorize, operation);
 router.use('/authentication', authentication);
 router.use('/information', authorize, information);
+/* router.use("*", (req,res)=>{
+    res.sendFile(path.join(__dirname,"client/build/index.html"))
+}) */
 
 
 /* Using authorize.js as middleware will secure our /operation route. Every request

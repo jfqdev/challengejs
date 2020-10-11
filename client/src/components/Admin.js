@@ -33,7 +33,7 @@ const Admin = ({ setAuth }) => {
     const getCategoryList = async()=>{
         
         try{
-          const res = await fetch("http://localhost:3001/information/category", {            
+          const res = await fetch("/information/category", {            
             headers: {
                 'Content-Type': 'application/json',
                 jwtToken: localStorage.token

@@ -13,7 +13,7 @@ const Main = ({ setAuth }) => {
   // Helper to get balance from server and set balance's state.
   const getBalance = async () => {
     try {
-      const res = await fetch("http://localhost:3001/operation/balance", {
+      const res = await fetch("/operation/balance", {
         method: "GET",
         headers: { jwtToken: localStorage.token }
       });
@@ -29,7 +29,7 @@ const Main = ({ setAuth }) => {
 
     const getLastOp = async()=> {
       try{
-        const res = await fetch("http://localhost:3001/operation/last10",{
+        const res = await fetch("/operation/last10",{
           method: "GET",
           headers: {jwtToken: localStorage.token}
         });
@@ -46,7 +46,7 @@ const Main = ({ setAuth }) => {
     const getName = async()=>{
 
       try{
-        const res = await fetch("http://localhost:3001/information/credentials",{
+        const res = await fetch("/information/credentials",{
           method: "GET",
           headers: {jwtToken: localStorage.token}
         });
