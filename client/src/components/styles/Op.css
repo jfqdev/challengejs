@@ -1,0 +1,43 @@
+.Monto {
+    align-items: center;
+    text-align: right;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.fuente {
+    font-size: 40px;
+}
+
+.groupList {
+    cursor: default;
+}
+
+.boxlist {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+.groupList:focus {
+    outline: none;
+    font-weight: bold;
+}
+
+.groupList:hover {
+    cursor: default;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width:780px) {
+    .Monto {
+        padding-top: 17px;
+    }
+    .fuente {
+        font-size: 20px;
+    }
+}
+
+.fontEgreso {
+    color: red;
+}
