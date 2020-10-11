@@ -1,4 +1,3 @@
-
 create table tipo (
 	tipoid SERIAL NOT NULL PRIMARY KEY,
 	caja VARCHAR(50) NOT NULL
