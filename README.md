@@ -6,12 +6,12 @@ If you are willing to pull this repo you must follow a few steps.
 
 on root directory:
 
->> npm install
+-npm install
 
 then:
 
- >>cd client 
- >> npm install
+ -cd client 
+ -npm install
  
  You will also have to install PostgreSQL.
  Connection to db is made in db.js, remember to add ur credentials there.
@@ -25,8 +25,8 @@ then:
  
  then:
  
- >>cd client
- >>npm start
+ -cd client
+ -npm start
  
  
  
